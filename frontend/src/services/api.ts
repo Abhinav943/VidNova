@@ -22,10 +22,6 @@ apiClient.interceptors.response.use(
   }
 );
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Auth
-// ─────────────────────────────────────────────────────────────────────────────
-
 export const loginUser = async (data: { email?: string; username?: string; password: string }) => {
   const response = await apiClient.post("/users/login", data);
   return response.data.data;
@@ -48,9 +44,6 @@ export const getCurrentUser = async () => {
   return response.data.data;
 };
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Videos
-// ─────────────────────────────────────────────────────────────────────────────
 
 export interface VideoOwner {
   _id: string;
@@ -115,9 +108,6 @@ export const incrementViews = async (videoId: string) => {
   return response.data.data;
 };
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Comments
-// ─────────────────────────────────────────────────────────────────────────────
 
 export interface Comment {
   _id: string;
@@ -155,9 +145,6 @@ export const toggleCommentLike = async (commentId: string) => {
   return response.data.data as { isLiked: boolean };
 };
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Likes
-// ─────────────────────────────────────────────────────────────────────────────
 
 export const toggleVideoLike = async (videoId: string) => {
   const response = await apiClient.post(`/likes/toggle/v/${videoId}`);
@@ -169,9 +156,6 @@ export const getLikedVideos = async (): Promise<Video[]> => {
   return response.data.data;
 };
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Subscriptions
-// ─────────────────────────────────────────────────────────────────────────────
 
 export const toggleSubscription = async (channelId: string) => {
   const response = await apiClient.post(`/subscriptions/c/${channelId}`);
@@ -183,9 +167,6 @@ export const getSubscribedChannels = async (userId: string) => {
   return response.data.data;
 };
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Watch History
-// ─────────────────────────────────────────────────────────────────────────────
 
 export const addToWatchHistory = async (videoId: string) => {
   const response = await apiClient.patch(`/users/history/${videoId}`);
