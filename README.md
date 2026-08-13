@@ -12,7 +12,7 @@
 
 ## 📖 Introduction
 
-**VidNova** is a video sharing platform I built to learn full-stack web development. It's a YouTube-like app where you can upload videos, watch content, like videos, leave comments, and subscribe to creators. The project uses modern tools like **Next.js 15**, **React 19**, and **Express.js** to handle everything from smooth animations on the frontend to secure user authentication and video storage on the backend.
+**VidNova** is a video sharing platform I built to learn full-stack web development. It's a YouTube-like app where you can upload videos, watch content, like videos, leave comments, and subscribe to creators. 
 
 ## 🚀 Key Features
 
@@ -60,8 +60,10 @@ git clone https://github.com/Abhinav943/VidNova.git
 cd VidNova
 
 # Install dependencies for both halves
-cd Backend && npm install
-cd ../frontend && npm install
+cd Backend 
+npm install
+cd ../frontend 
+npm install
 ```
 
 ### 2. Environment Configuration
@@ -82,12 +84,14 @@ Open two terminals:
 
 **Terminal 1 (Backend):**
 ```bash
-cd Backend && npm run dev
+cd Backend 
+npm run dev
 ```
 
 **Terminal 2 (Frontend):**
 ```bash
-cd frontend && npm run dev
+cd frontend 
+npm run dev
 ```
 
 Your app will be live at `http://localhost:3000`!
@@ -102,5 +106,5 @@ Abhinav - [@Abhinav943](https://github.com/Abhinav943)
 Project Link: [https://github.com/Abhinav943/VidNova](https://github.com/Abhinav943/VidNova)
 
 <div align="center">
-  <sub>Built with ❤️ by the Abhinav943</sub>
+  <sub>Built with ❤️ by Abhinav943</sub>
 </div>
