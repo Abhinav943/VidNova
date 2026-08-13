@@ -23,25 +23,26 @@
 
 ## 📖 Introduction
 
-**VidNova** is not just another video sharing site; it's a visual experience. Built for speed and aesthetics, it leverages the cutting-edge capabilities of **Next.js 15** and **React 19** to deliver instantaneous navigation and rich, fluid animations. Whether you are a creator looking for a home or a viewer seeking a vibrant community, VidNova provides a premium "Glassmorphism" environment that feels alive.
+**VidNova** is a video sharing platform I built to learn full-stack web development. It's a YouTube-like app where you can upload videos, watch content, like videos, leave comments, and subscribe to creators. The project uses modern tools like **Next.js 15**, **React 19**, and **Express.js** to handle everything from smooth animations on the frontend to secure user authentication and video storage on the backend.
 
 ## 🚀 Key Features
 
-### 🎬 For Viewers
-- **Seamless Playback**: Optimized streaming with custom controls and real-time view tracking.
-- **Vibrant Discovery**: Search-as-you-type and category-based filtering using Next.js client-side transitions.
-- **Engagement**: Like your favorite videos, subscribe to creators, and participate in threaded discussions.
-- **History & Likes**: Automatically track your viewing history and maintain a curated list of liked content.
+### 🎬 Viewer Features
+- **Watch Videos**: Play videos with custom player controls and automatic view tracking.
+- **Search & Browse**: Find videos by searching or browsing through categories.
+- **Interact**: Like videos, subscribe to creators, and comment on videos.
+- **Track History**: Keep a history of videos you've watched and a list of videos you've liked.
 
-### ✍️ For Creators
-- **Effortless Uploads**: Robust drag-and-drop interface with real-time upload progress simulation.
-- **Channel Branding**: Customize your presence with unique banners and avatars stored securely in the cloud.
-- **Analytics at a Glance**: Track subscriber growth and video engagement directly on your profile.
+### ✍️ Creator Features
+- **Upload Videos**: Drag and drop to upload videos with a progress indicator.
+- **Create a Channel**: Customize your profile with a banner and avatar.
+- **Track Growth**: See how many subscribers you have and how many people watched your videos.
 
-### 🛠️ Technical Excellence
-- **Hybrid Rendering**: Leveraging Server Components for SEO and Client Components for interactivity.
-- **Type-Safe Architecture**: End-to-end TypeScript integration ensures a reliable developer experience.
-- **Cyberpunk UI**: A custom design system built with Tailwind CSS, featuring neon glows and micro-interactions.
+### 🛠️ Built With
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS, and Framer Motion for animations.
+- **Backend**: Express.js with Node.js for the API and MongoDB for the database.
+- **Storage**: Cloudinary for storing videos and images.
+- **Authentication**: JWT tokens for secure login and session management.
 
 ---
 
