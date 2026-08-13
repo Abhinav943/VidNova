@@ -1,22 +1,15 @@
-# 🌌 VidNova: The Future of Streaming
+# 🌌 VidNova
 
 <div align="center">
   <p align="center">
     <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
     <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white" />
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
     <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
     <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-    <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=json-web-tokens&logoColor=white" />
-    <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" />
   </p>
-  
-  **A high-performance, animation-driven video platform with a stunning Cyberpunk soul.**
 </div>
 
 ---
@@ -55,19 +48,6 @@
 | Creator Dashboard | Authentication |
 | :---: | :---: |
 | ![Upload](screenshots/upload.png) | ![Login](screenshots/login.png) |
-
----
-
-## 🏗️ Project Architecture
-
-```mermaid
-graph TD
-    A[Next.js Frontend] -->|Axios / REST| B[Express.js Backend]
-    B -->|Mongoose| C[MongoDB Atlas]
-    B -->|Upload SDK| D[Cloudinary Storage]
-    A -->|Framer Motion| E[Animation Engine]
-    B -->|JWT| F[Auth System]
-```
 
 ---
 
